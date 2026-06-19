@@ -1,0 +1,16 @@
+@media(max-width:768px){
+
+    .intro h1{
+        font-size:2.3rem;
+    }
+
+    .section-title{
+        font-size:2rem;
+    }
+
+    .flower{
+        width:110px;
+        height:110px;
+    }
+
+}

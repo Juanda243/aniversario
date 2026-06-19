@@ -1,0 +1,59 @@
+.hero{
+    font-weight:600;
+
+    transition:0.4s;
+}
+
+.primary-btn{
+
+    background:
+    linear-gradient(
+        45deg,
+        #b388ff,
+        #ff77c8
+    );
+
+    color:white;
+
+    box-shadow:
+    0 0 30px rgba(179,136,255,0.5);
+}
+
+.primary-btn:hover{
+
+    transform:
+    translateY(-5px)
+    scale(1.05);
+}
+
+.secondary-btn{
+
+    border:
+    1px solid rgba(255,255,255,0.15);
+
+    background:
+    rgba(255,255,255,0.05);
+
+    backdrop-filter:blur(10px);
+
+    color:white;
+}
+
+.secondary-btn:hover{
+
+    background:
+    rgba(255,255,255,0.1);
+
+    transform:translateY(-5px);
+}
+
+@keyframes floatGlow{
+
+    0%,100%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-30px);
+    }
+}
